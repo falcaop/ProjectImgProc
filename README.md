@@ -5,7 +5,9 @@
 * Pedro Henrique Magalhães Cisdeli
 ## Abstract
 **Objetivo:** Destacar áreas de florestas em imagens de satélites
+
 **Processamentos prinipais:** Segmentação e descrição de imagens
+
 **Aplicação:** Estudo e monitoramento ambiental
 ## Exemplos de input
 ![screenshot do google maps](/inputs/input1.png "Screenshot do google maps")
