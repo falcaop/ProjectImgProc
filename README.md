@@ -12,13 +12,13 @@ Como dados de entrada, foram selecionadas imagens de 4 tipos (as fontes estão n
 
 1. [Residência em área urbana](https://www.google.com/maps/@-22.3037812,-49.0597558,273m/data=!3m1!1e3?hl=en)
 
-![area_urbana](/inputs/Bauru.png "Residência em área urbana")
+![area_urbana](/inputs/Bauru_1.png "Residência em área urbana")
 
 Para verificar se o programa consegue distinguir as árvores das casas.
 
 2. [Residência em área rural](https://www.google.com/maps/@-22.2059682,-49.1207184,785m/data=!3m1!1e3?hl=en)
 
-![area_rural](/inputs/Bauru.png "Residência em área rural")
+![area_rural](/inputs/Bauru_2.png "Residência em área rural")
 
 Para verificar se o programa consegue distinguir as árvores dos pastos.
 
