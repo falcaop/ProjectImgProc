@@ -10,19 +10,19 @@ O objetivo do presente projeto é realizar a segmentação de áreas de floresta
 ## Imagens de entrada
 Como dados de entrada, foram selecionadas imagens de 4 tipos (as fontes estão nos links):
 
-1. [Residência em área urbana](https://www.google.com/maps/@-22.3037812,-49.0597558,273m/data=!3m1!1e3?hl=en)
+1. [Urbano](https://www.google.com/maps/@-22.3037812,-49.0597558,273m/data=!3m1!1e3?hl=en)
 
 ![area_urbana](/inputs/Bauru_1.png "Residência em área urbana")
 
 Para verificar se o programa consegue distinguir as árvores das casas.
 
-2. [Residência em área rural](https://www.google.com/maps/@-22.2059682,-49.1207184,785m/data=!3m1!1e3?hl=en)
+2. [Rural](https://www.google.com/maps/@-22.2059682,-49.1207184,785m/data=!3m1!1e3?hl=en)
 
 ![area_rural](/inputs/Bauru_2.png "Residência em área rural")
 
 Para verificar se o programa consegue distinguir as árvores dos pastos.
 
-3. [Residência em área litorânea](https://www.google.com/maps/@-24.099164,-46.6281329,3097m/data=!3m1!1e3?hl=en)
+3. [Litorâneo](https://www.google.com/maps/@-24.099164,-46.6281329,3097m/data=!3m1!1e3?hl=en)
 
 ![area_litoranea](/inputs/Mongagua.png "Residência em área litorânea")
 
