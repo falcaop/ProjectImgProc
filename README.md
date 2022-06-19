@@ -20,5 +20,5 @@ Como dados de entrada, foram selecionadas imagens de 4 tipos (as fontes estão c
 ![area_litoranea](/inputs/Mongagua.png "Residência em área litorânea")
 
 4. [Para comparação temporal](https://twitter.com/BiodiversidadeB/status/1536483908514381824)
-![xingu_1984](/inputs/Parque_do_Xingu_1_(1984).png "Parque do Xingu (1984)")
-![xingu_2020](/inputs/Parque_do_Xingu_2_(2020).png "Parque do Xingu (2020)")
+![xingu_1984](/inputs/Parque_do_Xingu_1_(1984).jpg "Parque do Xingu (1984)")
+![xingu_2020](/inputs/Parque_do_Xingu_2_(2020).jpg "Parque do Xingu (2020)")
