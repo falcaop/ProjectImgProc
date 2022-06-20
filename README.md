@@ -1,36 +1,21 @@
-# Segmentação de áreas de florestas em imagens aéreas do Google Maps
+# Segmentação de áreas de florestas em imagens via satélite
 ## Participantes
 * Diogo Castanho Emídio - 11297274
 * Pedro Falcão Rocha - 12692408
 * Pedro Henrique Magalhães Cisdeli - 10289804
 
 ## Objetivo
-O objetivo do presente projeto é realizar a segmentação de áreas de florestas em imagens aéreas, podendo ter como aplicação estudo e monitoramento ambiental para análise de avanço do desmatamento. Para isso, por meio de processos de segmentação e descrição, tais áreas serão tanto destacadas nas imagens originais quanto extraídas em representações isoladas. As fotos são oriundas do Google Maps, do Google Earth e de fontes que utilizam esses serviços.
+O objetivo do presente projeto é realizar a segmentação/classificação de áreas de florestas em imagens aéreas, podendo ter como aplicação estudo e monitoramento ambiental para análise de avanço do desmatamento. Para isso, por meio de processos de segmentação e descrição, tais áreas serão tanto destacadas nas imagens originais quanto extraídas em representações isoladas. As fotos são oriundas do satélite [Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2), do Google Earth e de outras fontes que utilizam esses serviços.
 
 ## Imagens de entrada
-Como dados de entrada, foram selecionadas imagens de 4 tipos (as fontes estão nos links):
+Como dados de entrada, inicialmente, foram selecionados dois datasets de [8 bandas (B01, ..., B08)](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/#available-bands-and-data) da base do Sentinel-2 para formar a imagem rasterizada.
 
-1. [Urbano](https://www.google.com/maps/@-22.3037812,-49.0597558,273m/data=!3m1!1e3?hl=en)
+1. 2018-10-13, Sentinel-2B L1C
 
 ![area_urbana](/inputs/Bauru_1.png "Residência em área urbana")
 
 Para verificar se o programa consegue distinguir as árvores das casas.
 
-2. [Rural](https://www.google.com/maps/@-22.2059682,-49.1207184,785m/data=!3m1!1e3?hl=en)
+2. Outfile
 
 ![area_rural](/inputs/Bauru_2.png "Residência em área rural")
-
-Para verificar se o programa consegue distinguir as árvores dos pastos.
-
-3. [Litorâneo](https://www.google.com/maps/@-24.099164,-46.6281329,3097m/data=!3m1!1e3?hl=en)
-
-![area_litoranea](/inputs/Mongagua.png "Residência em área litorânea")
-
-Para verificar se o programa consegue distinguir as árvores do mar.
-
-4. [Diacrônico](https://twitter.com/BiodiversidadeB/status/1536483908514381824)
-
-![xingu_1984](/inputs/Parque_do_Xingu_1_(1984).jpg "Parque do Xingu (1984)")
-![xingu_2020](/inputs/Parque_do_Xingu_2_(2020).jpg "Parque do Xingu (2020)")
-
-Para realizar uma comparação temporal.
