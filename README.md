@@ -35,5 +35,5 @@ The Normalized Difference Vegetation Index **(NVDI)** is a simple graphical indi
 With further development and processing we expect to be able to segmentate regions of interest, provide more useful information and classify the landscape.
 
 ## References
-ENGESAT. **Como escolher imagens de satélite**. *Available on*: http://www.engesat.com.br/wp-content/uploads/Ebook-ENGESAT-Como-escolher-imagens-de-sat%C3%A9lite-_geral.pdf. Accessed on: 18 jun. 2022.
-GRAY, Avatar Patrick. **Open Source Geoprocessing Tutorial**. 2022. Available on: https://github.com/patrickcgray/open-geo-tutorial. Accessed on: 18 june. 2022.
+- ENGESAT. **Como escolher imagens de satélite**. *Available on*: http://www.engesat.com.br/wp-content/uploads/Ebook-ENGESAT-Como-escolher-imagens-de-sat%C3%A9lite-_geral.pdf. Accessed on: 18 jun. 2022.
+- GRAY, Avatar Patrick. **Open Source Geoprocessing Tutorial**. 2022. Available on: https://github.com/patrickcgray/open-geo-tutorial. Accessed on: 18 june. 2022.
