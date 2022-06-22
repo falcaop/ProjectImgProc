@@ -20,6 +20,14 @@ For now, [both datasets](https://github.com/falcaop/ProjectImgProc/tree/main/dat
 
 ![dataset_2](/github/outFile_hist.png)
 
+## Steps descriptions
+
+1. Load a satellite image 
+2. Extract the blue, red, green, and NIR bands in separate images
+3. Calculate the Normalized Difference Vegetation index described in the next section
+4. Identify and highlight areas of live vegetation in the input image
+5. Use this data to assist a machine learning method in better classifying the type of vegetation
+
 ## Normalized Difference Vegetation Index
 The Normalized Difference Vegetation Index **(NVDI)** is a simple graphical indicator used to avaluate live green vegetation:
 
