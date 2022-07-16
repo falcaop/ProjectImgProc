@@ -1,4 +1,4 @@
-import matplotlib
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 import rasterio
@@ -30,6 +30,31 @@ def dataSetSelect(op):
                 "data/outFile_B04.tiff",
                 "data/outFile_B08.tiff"]
 
+# Applies sigmoidal contrast enhancement to all pixels equally
+def contrast(img, k=0.035):
+    return (255 / (1 + np.exp(-k * (img.astype(np.int32) - 127)))).astype(np.uint8)
+
+# Applies the contrast adjustment without modifying any chromatic component
+def contrast_hsv(img, k=0.035):
+    img_hsv = mpl.colors.rgb_to_hsv(img)
+    img_hsv[:, :, 2] = contrast(img_hsv[:, :, 2].astype(np.uint32), k=k)
+
+    return mpl.colors.hsv_to_rgb(img_hsv).astype(np.uint8)
+
+# Normalize an image
+def normalize(img):
+    img = 255 * (img - np.min(img)) / (np.max(img) - np.min(img))
+
+    return img
+
+# Applies highlight
+def highlight(img, rates=np.zeros(img.shape[-1])):
+    img = img.astype(np.float32)
+
+    for index, rate in enumerate(rates):
+        img[:, :, index] = normalize(img[:, :, index] * (1 + rate)) if rate != -1 else np.zeros(img.shape[: 2])
+
+    return img.astype(np.uint8)
 
 # --- Loading bands blue, green, red and NIR respectively
 bands = dataSetSelect(int(input("Dataset selection [1, 2]: ")))
