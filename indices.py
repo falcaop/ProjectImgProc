@@ -7,13 +7,11 @@ import folium
 
 """
 Final image band structure:
-
 Arr        Band
 img[0]  -   blue
 img[1]  -   green
 img[2]  -   red
 img[2]  -   NIR
-
 More info about sentinel-2 L1C bands at: https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/#available-bands-and-data
 """
 
