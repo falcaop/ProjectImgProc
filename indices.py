@@ -56,7 +56,9 @@ for band in bands:
 # No need for a clip (for now) since the raster is relatively small
 # And the there is not much use of computing resorces
 img = np.array(arr, dtype=arr[0].dtype)
-newImg = contrast(img, k=0.035)
+
+k_input = float(input("k = "))
+newImg = contrast(img, k=k_input)
 
 #--- Indices
 # Normalized Difference Vegetation Index
