@@ -39,11 +39,11 @@ A contrast filter was applied to the input images to compare its effects on the 
 2. outFile
 ![input_image_02](/github/filtered_02.png)
 
-The contrast filter applied removed some of the brightness of the input image, so the lower frequencies were lost with this operation.
-\With more testing it was determined that brightening the image resulted in worse indexes. 
+The contrast filter applied removed some of the brightness of the input image, so the lower frequencies were lost with this operation.\
+With more testing it was determined that brightening the image resulted in worse indexes. 
 
 ## Normalized Difference Vegetation Index and Normalized Difference Water Index 
-The Normalized Difference Vegetation Index **(NVDI)** and Normalized Difference Water Index **(NVWI)** are a simple graphical indicator used to avaluate live green vegetation and water.\
+The Normalized Difference Vegetation Index **(NVDI)** and Normalized Difference Water Index **(NVWI)** are a simple graphical indicator used to avaluate live green vegetation and water.
 
 NDVI examples with both datasets:
 
