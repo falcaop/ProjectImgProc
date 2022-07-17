@@ -82,7 +82,7 @@ The classes used for the Naive Bayes model are:
 
 ![dataset_1_classification](/github/classify.png)
 
-The naive bayes model was successful although itt is possible to note a mistake in the classification in the lower left section of the image, it gets land mistaken with water because of the presence of a bay.
+The naive bayes model was successful even with the hard task to classify the lower left section of the image where there is the presence of a bay mixed with some wetland, wich the dictionary represents it as purple.
 
 ## References
 - ENGESAT. **Como escolher imagens de satélite**. *Available on*: http://www.engesat.com.br/wp-content/uploads/Ebook-ENGESAT-Como-escolher-imagens-de-sat%C3%A9lite-_geral.pdf. Accessed on: 18 jun. 2022.
